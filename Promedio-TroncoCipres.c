@@ -25,9 +25,7 @@ int main (int argc, char *argv[])
         {
             break;
         }
-        } while (1);
-        
-        
+        } while (diametro>=0 && altura>=0);
     } while (salida=='S');
     if (cont>0)
     {
